@@ -3,9 +3,6 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 
-import { createContext } from "react";
-
-const DataContext = createContext();
 
 function App() {
   return (
@@ -20,4 +17,4 @@ function App() {
 }
 
 export default App;
-export { DataContext };
+
